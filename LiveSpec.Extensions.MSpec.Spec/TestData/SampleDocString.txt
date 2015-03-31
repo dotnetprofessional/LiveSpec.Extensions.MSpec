@@ -1,0 +1,1 @@
+﻿A sample DocString in a resource file
