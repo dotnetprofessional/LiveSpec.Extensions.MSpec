@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSpec.Extensions.MSpec", "LiveSpec.Extensions.MSpec\LiveSpec.Extensions.MSpec.csproj", "{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSpec.Extensions.MSpec.Spec", "LiveSpec.Extensions.MSpec.Spec\LiveSpec.Extensions.MSpec.Spec.csproj", "{0E95D96B-9028-481E-A3E2-6F13DCC56E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E95D96B-9028-481E-A3E2-6F13DCC56E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E95D96B-9028-481E-A3E2-6F13DCC56E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E95D96B-9028-481E-A3E2-6F13DCC56E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E95D96B-9028-481E-A3E2-6F13DCC56E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
