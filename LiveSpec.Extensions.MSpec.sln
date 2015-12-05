@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSpec.Extensions.MSpec", "LiveSpec.Extensions.MSpec\LiveSpec.Extensions.MSpec.csproj", "{7F294FA2-EBF8-4D9E-ACEB-A9F0FE7F7772}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSpec.Extensions.MSpec.Spec", "LiveSpec.Extensions.MSpec.Spec\LiveSpec.Extensions.MSpec.Spec.csproj", "{0E95D96B-9028-481E-A3E2-6F13DCC56E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package", "Package", "{3FF6E25A-9A45-4327-9A00-3CA91CCB05CF}"
+	ProjectSection(SolutionItems) = preProject
+		nugetbuild.bat = nugetbuild.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

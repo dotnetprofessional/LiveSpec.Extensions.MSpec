@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>LiveSpec.Mspec.Extensionss</id>
+    <id>LiveSpec.Extensions.MSpec</id>
     <version>$version$</version>
     <title>$title$</title>
     <description>$description$</description>
     <authors>Garry McGlennon</authors>
     <owners>dotNetProfessional</owners>
-    <!--<licenseUrl>https://github.com/dotnetprofessional/MSpec.Extensions/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/dotnetprofessional/MSpec.Extensions/</projectUrl>-->
+    <!--<licenseUrl>https://github.com/dotnetprofessional/LiveSpec.Extensions.MSpec/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dotnetprofessional/LiveSpec.Extensions.MSpec/</projectUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>see https://github.com/dotnetprofessional/MSpec.Extensions/releases</releaseNotes>
+    <releaseNotes>see https://github.com/dotnetprofessional/LiveSpec.Extensions.MSpec/releases </releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>MSPEC BDD XBEHAVE TDD UNIT TESTING TEST GHERKIN CUCUMBER SPECFLOW</tags>
   </metadata>

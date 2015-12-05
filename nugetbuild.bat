@@ -1,4 +1,4 @@
 cd LiveSpec.Extensions.MSpec
-nuget.exe pack
-xcopy *.nupkg "C:\Users\Garry\SkyDrive\Public\nuget" /F /Y
+nuget.exe pack -Verbosity detailed
+xcopy *.nupkg "D:\Dev\Nuget" /F /Y
 cd ..
