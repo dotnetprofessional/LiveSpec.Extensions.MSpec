@@ -47,7 +47,7 @@ namespace LiveSpec.Extensions.MSpec
                 {
                     this.Narration = narration.Substring(0, docStringIndex);
                     // Now remove the last carriage return produced by the docString
-                    this.Narration = this.Narration.Substring(0, this.Narration.LastIndexOf(Environment.NewLine));
+                    this.Narration = this.Narration.TrimEnd(new []{'\n','\r', ' '});
                     this.DocString = this.ProcessDocString(narration.Substring(docStringIndex));
                 }
                 else
@@ -65,7 +65,8 @@ namespace LiveSpec.Extensions.MSpec
         string ProcessDocString(string rawDocString)
         {
             // Split into lines for processing
-            var lines = rawDocString.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            rawDocString = rawDocString.Replace("\r", ""); // Stripping out /r as it seems VS sometimes only has /n not /n/r
+            var lines = rawDocString.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
             // Determine the actual last line which contains the terminator
             var terminatorIndex = 0;
             for (int i = lines.Length - 1; i > 0; i--)
